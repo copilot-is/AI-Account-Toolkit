@@ -15,6 +15,8 @@ from dataclasses import dataclass
 
 from curl_cffi import requests
 
+# 注册 OpenAI Codex by tempmail.lol
+
 # ====================== 强密码生成 ======================
 def get_password() -> str:
     chars = string.ascii_letters + string.digits
