@@ -38,3 +38,12 @@
 [submodule "packages/codex/codex-register-fix"]
 	path = packages/codex/codex-register-fix
 	url = https://github.com/917017420/codex-register-fix.git
+[submodule "packages/email/msOauth2api"]
+	path = packages/email/msOauth2api
+	url = https://github.com/HChaoHui/msOauth2api.git
+[submodule "packages/email/Hotmail-Outlook-Create-Account-Register-Auto"]
+	path = packages/email/Hotmail-Outlook-Create-Account-Register-Auto
+	url = https://github.com/SeseydOw/Hotmail-Outlook-Create-Account-Register-Auto.git
+[submodule "packages/email/outlook-auto-register"]
+	path = packages/email/outlook-auto-register
+	url = https://github.com/Asunfly/outlook-auto-register.git

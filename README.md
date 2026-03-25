@@ -255,6 +255,39 @@ AI-Account-Toolkit/
 
 **使用指南**：[packages/codex/codex-register-fix/README.md](packages/codex/codex-register-fix/README.md)
 
+### 20. msOauth2api - 微软 OAuth2 邮件取件 API
+
+**功能**：将微软的 OAuth2 认证取件流程封装成一个简单的 API，并部署在 Vercel 的无服务器平台上。通过这个 API，可以轻松地在应用中进行 OAuth2 取件功能。
+
+**主要文件**：
+- `api/` - API 接口目录
+- `vercel.json` - Vercel 配置文件
+- `README.md` - 项目说明
+
+**使用指南**：[packages/email/msOauth2api/README.md](packages/email/msOauth2api/README.md)
+
+### 21. Hotmail-Outlook-Create-Account-Register-Auto - Hotmail 账号自动创建工具
+
+**功能**：高级 Hotmail / Outlook 账号创建和自动化工具，支持验证码绕过、代理轮换、指纹伪装和逼真的人类行为模拟。
+
+**主要文件**：
+- 主程序文件
+- 配置文件
+- README.md - 项目说明
+
+**使用指南**：[packages/email/Hotmail-Outlook-Create-Account-Register-Auto/README.md](packages/email/Hotmail-Outlook-Create-Account-Register-Auto/README.md)
+
+### 22. outlook-auto-register - Outlook 邮箱注册工具集
+
+**功能**：基于 Outlook 邮箱 OAuth2 认证的批量自动注册工具集，支持多个目标平台共享同一套邮箱接码模块。
+
+**主要文件**：
+- `start.py` - 统一启动入口
+- `common/outlook_mail.py` - 邮箱接码模块
+- `projects/` - 注册项目目录
+
+**使用指南**：[packages/email/outlook-auto-register/README.md](packages/email/outlook-auto-register/README.md)
+
 ## 快速开始
 
 ### 1. 环境准备
@@ -296,6 +329,9 @@ git submodule update
 - `packages/general/MREGISTER/` - ChatGPT 注册机 Web UI
 - `packages/codex/codex_register/` - Codex 注册脚本
 - `packages/codex/codex-register-fix/` - Codex 注册修复版本
+- `packages/email/msOauth2api/` - 微软 OAuth2 邮件取件 API
+- `packages/email/Hotmail-Outlook-Create-Account-Register-Auto/` - Hotmail 账号自动创建工具
+- `packages/email/outlook-auto-register/` - Outlook 邮箱注册工具集
 
 ### 3. 配置设置
 

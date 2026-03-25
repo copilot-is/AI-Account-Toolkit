@@ -79,6 +79,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - 支持 Sentinel PoW Token 生成
     - 提供完整的 OAuth 登录流程
 
+- **邮箱相关子模块**
+  - **packages/email/cloudflare_temp_email** (submodule) - Cloudflare 临时邮箱服务
+  - **packages/email/msOauth2api** (submodule) - 微软 OAuth2 邮件取件 API
+    - 将微软的 OAuth2 认证取件流程封装成简单的 API
+    - 部署在 Vercel 的无服务器平台上
+    - 支持 Graph API 取件，速度更快更稳定
+    - 自动提取邮件中的 6 位数字验证码
+  - **packages/email/Hotmail-Outlook-Create-Account-Register-Auto** (submodule) - Hotmail 账号自动创建工具
+    - 高级 Hotmail / Outlook 账号创建和自动化工具
+    - 支持验证码绕过、代理轮换、指纹伪装
+    - 逼真的人类行为模拟
+    - 多线程并发创建账号
+  - **packages/email/outlook-auto-register** (submodule) - Outlook 邮箱注册工具集
+    - 基于 Outlook 邮箱 OAuth2 认证的批量自动注册工具集
+    - 支持多个目标平台共享同一套邮箱接码模块
+    - 提供统一的启动入口和配置向导
+    - 支持多种代理方式和验证码提取
+
 ### Updated
 
 - 项目结构优化，整合多个注册工具
